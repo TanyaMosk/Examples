@@ -25,7 +25,7 @@ export const App = () => {
     <h1 className={css.title}>Images Slider</h1>
     <div className={css.slider}>
         <div onClick={prevImage}>
-        <BsFillArrowLeftCircleFill/>
+        <BsFillArrowLeftCircleFill className={css.icon}/>
       </div>
       <div>
         {images.map((image, i) =>
@@ -36,7 +36,7 @@ export const App = () => {
         ))}
       </div>
       <div onClick={nextImage}>
-        <BsFillArrowRightCircleFill/>
+          <BsFillArrowRightCircleFill className={css.icon} />
       </div>      
     </div>
   </div>
