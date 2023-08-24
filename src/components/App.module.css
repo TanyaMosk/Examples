@@ -1,0 +1,13 @@
+.title{
+    text-align: center;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+}
