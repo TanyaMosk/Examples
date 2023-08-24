@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.icon {
+    font-size: 40px;
+    color: darkblue;
+    transform: color 300ms;
+}
+
+.icon:hover {
+    color: blue
+}
